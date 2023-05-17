@@ -1,19 +1,19 @@
 <div align="center">
-  <a href="https://sumitsingh.github.io" target="_blank">  
-    <img alt="Logo" src="https://sumitsingh.github.io/packages/images/logo.webp" width="50" />
+  <a href="https://sumit-singh1196.github.io/resume/" target="_blank">  
+    <img alt="Logo" src="https://sumit-singh1196.github.io/resume/packages/images/logo.webp" width="50" />
   </a>
 </div>
 <h1 align="center">
   sumitsingh.github.io - v2
 </h1>
 <p align="center">
-  The second iteration of <a href="https://sumitsingh.github.io" target="_blank">sumitsingh.github.io</a> built with HTML, CSS, JavaScript and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+  The second iteration of <a href="https://sumit-singh1196.github.io/resume/" target="_blank">sumitsingh.github.io</a> built with HTML, CSS, JavaScript and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 </p>
 
 <!-- website version -->
 <!-- <p align="center">
   Previous versions:
-  <a href="https://sumitsingh.github.io" target="_blank">v1</a>
+  <a href="https://sumit-singh1196.github.io/resume/" target="_blank">v1</a>
 </p> -->
 
 <p align="center">
@@ -39,7 +39,7 @@
 ✔️ Projects\
 ✔️ Contact
 
-Check this out, **[Live URL](https://sumitsingh.github.io/)**
+Check this out, **[Live URL](https://sumit-singh1196.github.io/resume/)**
 
 ## Tech Stacks & Tools Used 🛠️
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,javascript,git,github,vscode&theme=light)](#)

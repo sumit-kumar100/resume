@@ -1,3 +1,77 @@
+Sumit Singh
+Full Stack Developer
+
+Delhi, India
++91 9355471196
+
+As an aspiring software developer, I'm driven by self-belief and enthusiasm, with a passion for problem-solving. With expertise in both backend and frontend development, I bring a creative and diligent approach to my work. 
+I thrive on challenges that allow me to enhance my problem-solving skills and constantly push the boundaries of innovation.
+
+PERSONAL INFORMATION
+  Address: , Delhi, India, 
+  Nationality: 
+  Driving License: 
+  Hobbies: Cricket , Music & Dance.
+
+SOCIAL PROFILES
+  * Portfolio :https://sumit-singh1196.github.io/resume: https://sumit-singh1196.github.io/resume
+  * GitHub : https://github.com/sumit-singh1196: https://github.com/sumit-singh1196
+
+LANGUAGES
+  ★★★★★ Hindi
+  ★★★☆☆ English
+
+SKILLS
+  ★★★★★ C & C++
+  ★★★★★ Python
+  ★★★★★ JavaScript
+  ★★★★★ Django & NodeJS
+  ★★★★★ React & Next JS
+  ★★★★★ React Native
+  ★★★★★ Mysql & postgreSQL
+  ★★★★★ Mongo DB
+  ★★★★★ Digital Ocean & AWS
+  ★★★★★ Selenium
+  ★★★★★ Mocha, Chai & Jest
+  ★★★★★ Git & Github
+
+WORK EXPERIENCE
+  * August 2021 – October 2022
+    Python Full Stack Developer at Nixis Technologies, New Delhi
+      
+  Experienced Full Stack Developer with expertise in tour and travel, tenant employee management, and web crawling.
+  Proficient in front-end, back-end, and database development.
+  Skilled in deploying applications to various platforms for optimal performance and user accessibility.
+  Committed to delivering end-to-end functionality and ensuring user satisfaction.
+
+
+  * October 2022 – Present
+    MERN Full Stack Developer at Dahat Consultancy Services, 
+      
+  Full Stack Developer with experience in supply chain finance project.
+  Developed a comprehensive platform using NodeJS, React/NextJS, and postgreSQL.
+  Deployed the application on Server for secure and efficient operations.
+  Proficient in both front-end and back-end development.
+  Committed to ensuring the smooth functioning and accessibility of the supply chain finance system.
+
+
+
+EDUCATION
+  * April 2019 – May 2021
+    CBSE, New Delhi High School
+
+    
+  Matriculation &amp; Higher/Senior Secondary Education : Secured an outstanding 90% score, showcasing dedication and excellence in academic performance.
+
+  * June 2021 – Present
+    Indira Gandhi National Open University, New Delhi BCA
+
+    
+  Currently, pursuing BCA from IGNOU, acquiring comprehensive knowledge and skills in computer applications and software development for professional excellence
+
+
+==========================================================================================================================================================================================
+
 Left Side Content Around 75-80%.
 
 Sumit Singh
@@ -48,7 +122,7 @@ Details
 
 Links
 -> Professional Portfolio
-    https://sumitsingh.github.io
+    https://sumit-singh1196.github.io/resume/
 -> LinkedIn Profile
     https://www.linkedin.com/in/sumit-singh-194a05224/
 -> Github Account
