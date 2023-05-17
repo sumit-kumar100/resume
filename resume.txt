@@ -1,0 +1,77 @@
+Left Side Content Around 75-80%.
+
+Sumit Singh
+Full Stack Developer
+
+Profile
+-> As an aspiring software developer, I'm driven by self-belief and enthusiasm, with a passion for problem-solving. With expertise in both backend and frontend development, I bring a creative and diligent approach to my work. 
+-> I thrive on challenges that allow me to enhance my problem-solving skills and constantly push the boundaries of innovation.
+
+
+Employment History
+-> Python Full Stack Developer at Nixis Technologies, New Delhi
+    Aug, 2021 - Oct, 2022
+    * Experienced Full Stack Developer with expertise in tour and travel, tenant employee management, and web crawling.
+    * Proficient in front-end, back-end, and database development.
+    * Skilled in deploying applications to various platforms for optimal performance and user accessibility.
+    * Committed to delivering end-to-end functionality and ensuring user satisfaction.
+
+-> MERN Full Stack Developer at Dahat Consultancy Services
+    Oct, 2022 - Present
+    * Full Stack Developer with experience in supply chain finance project.
+    * Developed a comprehensive platform using NodeJS, React/NextJS, and postgreSQL.
+    * Deployed the application on Server for secure and efficient operations.
+    * Proficient in both front-end and back-end development.
+    * Committed to ensuring the smooth functioning and accessibility of the supply chain finance system.
+
+
+
+Education
+-> High School, CBSE, New Delhi
+    Apr, 2019 - May, 2021
+    * Matriculation & Higher/Senior Secondary Education : Secured an outstanding 90% score, showcasing dedication and excellence in academic performance.
+-> BCA, Indira Gandhi National Open University, New Delhi
+    Jun, 2021 - Present
+    * Currently, pursuing BCA from IGNOU, acquiring comprehensive knowledge and skills in computer applications and software development for professional excellence
+
+
+
+
+Right-Side Content with around 20-25 percent.
+
+
+Details
+-> +91 9355471196
+-> summysumit100@gmail.com
+-> New Delhi, India
+
+
+Links
+-> Professional Portfolio
+    https://sumitsingh.github.io
+-> LinkedIn Profile
+    https://www.linkedin.com/in/sumit-singh-194a05224/
+-> Github Account
+    https://github.com/sumit-singh1196
+
+
+Skills
+-> C & C++
+-> Python
+-> Javascript
+-> Django & NodeJS
+-> React & Next JS
+-> React Native
+-> Mysql & postgreSQL
+-> Mongo DB
+-> Digitial Ocean & AWS
+-> Selenium
+-> Mocha, Chai & Jest
+-> Git & Github
+
+Languages
+-> Hindi
+-> Engligh
+
+Hobbies
+-> Cricket, Music & Dance.

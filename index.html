@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./packages/images/favicon.ico" type="image/x-icon" />
+
+  <!-- style css -->
+  <link rel="stylesheet" href="./packages/css/styles.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+  <!-- icons -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+  <!-- email js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("9a07BpNiJBtfkzhKd"); // emailJS user-id
+    })();
+  </script>
+
+  <!-- github stats -->
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+  <!-- HTML Meta Tags -->
+  <title>Sumit Singh - Full Stack Software Developer</title>
+  <link rel="canonical" href="https://github.com/sumit-singh1196" />
+  <meta name="description"
+    content="As a Full-Stack Software Developer, I build digital products, specializing in custom web theme development and I love what I do." />
+  <meta name="keywords"
+    content="sumit,sumitsingh,sumit-singh,ux,ui,graphic,design,branding,experience,iOS,android,product,manager,freelance,interface,app,react,laravel,designer,cv,web,website,websites,web design,design,graphic design,logo design,freelance,responsive,mobile,mobile design,unique,fun,typography,hand drawn,lettering,illustration,fonts,type,handdrawn,affordable,small business,personal,blog,portfolio,store,prints,font,icons,developer-portfolio" />
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:site_name" content="Sumit Singh - Full Stack Software Developer" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta property="og:url" content="https://github.com/sumit-singh1196" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="https://github.com/sumit-singh1196" />
+  <meta property="og:description"
+    content="As a Full-Stack Software Developer, I build digital products, specializing in custom web theme development and I love what I do." />
+  <meta property="og:image" content="https://github.com/sumit-singh1196" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:image:type" content="image/webp" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8710PKQN9T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-8710PKQN9T");
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-200608746-1", "auto");
+    ga(
+      "send",
+      "pageview",
+      "myTracker.send",
+      "event",
+      "Video",
+      "play",
+      "cats.mp4"
+    );
+  </script>
+
+  <meta name="google-site-verification" content="fhyTdtqD_RstBjnzobeQOmCoX6O14NcjX5oEcvaBsMw" />
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-57MWG3P");
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body onload="preLoader()">
+  <!--==================== Loader ====================-->
+  <!-- <div id="loading"></div> -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe style="display: none; visibility: hidden" src="https://www.googletagmanager.com/ns.html?id=GTM-57MWG3P">
+      Google Tag Manager
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="./packages/images/logo.webp" alt="Logo" title="Logo" />
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link hover-underline">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link hover-underline">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link hover-underline">
+              <i class="uil uil-file-alt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link hover-underline">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link hover-underline">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Career
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link hover-underline">
+              <i class="uil uil-message nav__icon"></i>Contact
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <a class="resume-button" title="download" download="Sumit-Singh-Resume"
+          href="./packages/resume/Sumit-Singh-Resume.pdf"
+          onclick="window.open('https://drive.google.com/file/d/1mDNVyeI2BiySgx_4lOWz8Qq-E_7V7QNg/view?usp=sharing','_blank')">Resume</a>
+      </div>
+      <div class="nav__btns">
+        <i class="uil uil-moon change-theme" style="margin-left: 10px" id="theme-button" title="Theme"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/sumit-singh-194a05224" target="_blank" class="home__social-icon"
+              title="Linkedin">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <!-- github -->
+            <a href="https://github.com/sumit-singh1196" target="_blank" class="home__social-icon" title="GitHub">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <!-- facebook -->
+            <a href="https://www.facebook.com/profile.php?id=100024256338351" target="_blank" class="home__social-icon"
+              title="Facebook">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <!-- leetcode -->
+            <a href="https://leetcode.com/summysumit100" target="_blank" class="home__social-icon" title="Leetcode">
+              <i class="uil uil-adobe"></i>
+            </a>
+          </div>
+
+          <div class="home__data">
+            <span style="font-size: 16px">Hi, my name is</span>
+            <h1 class="home__title">Sumit Singh </h1>
+            <h3 class="home__subtitle">I build things for the web <span>&</span> apps.</h3>
+            <p class="home__description">
+              Enthusiastic and self-motivated software developer
+              specializing in backend and frontend development.
+              Eager to tackle challenges and continuously enhance
+              problem-solving skills in innovative environments
+              Currently, focusing on learning C++
+              language and Data structure and algorithms.
+            </p>
+            <a href="#contact" class="button button--flex home__button" title="Contact me">
+              Contact Me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container grid">
+        <img src="packages/images/sumit.jpg" alt="Sumit's image" class="about__img" />
+        <div class="about__data">
+          <p class="about__description">
+            Driven by self-belief and enthusiasm, I am an aspiring software developer
+            with a strong interest in problem-solving. I possess a creative and diligent
+            approach, specializing in both backend and frontend development.
+          </p>
+          <br>
+          <p class="about__description" style="margin-top:-50px">
+            I am eager to further enhance my problem-solving skills
+            within a challenging environment, continuously pushing
+            the boundaries of innovation.
+          </p>
+          <div class="about__buttons">
+            <a download="Sumit-Singh-Resume" class="button button--flex" title="click to download"
+              href="./packages/resume/Sumit-Singh-Resume.pdf"
+              onclick="window.open('https://drive.google.com/file/d/1mDNVyeI2BiySgx_4lOWz8Qq-E_7V7QNg/view?usp=sharing','_blank')">
+              Resume
+              <i class="uil uil-download-alt button__icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technologies</span>
+
+      <div class="skills__container container grid">
+        <div>
+          <div class="skills__content skills__open">
+            <div class="skills__list grid">
+              <div class="tech__row">
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="vscode-icons:file-type-cpp3" height="40"></iconify-icon>
+                    <h3 class="services__title">C++<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:python" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">Python<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon style="color: #65b743" icon="logos:javascript" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">JavaScript<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="skill-icons:nodejs-dark" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">NodeJS<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="skill-icons:django" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">Django<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="vscode-icons:file-type-reactjs" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">React JS<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:nextjs-icon" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">Next JS<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="skill-icons:react-dark" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">React Native<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:mongodb-icon" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">MongoDB<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:mysql-icon" height="40" width="40"></iconify-icon>
+                    <h3 class="services__title">MySQL<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:postgresql" height="40" width="40"></iconify-icon>
+                    <h3 class="services__title">postgreSQL<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:digital-ocean" height="40" width="45">
+                      ></iconify-icon>
+                    <h3 class="services__title">Digital Ocean<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:aws" height="40" width="45">
+                      ></iconify-icon>
+                    <h3 class="services__title">AWS<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:selenium" height="40" width="45">
+                      ></iconify-icon>
+                    <h3 class="services__title">Selenium<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="logos:mocha" height="40" width="45">
+                      ></iconify-icon>
+                    <h3 class="services__title">Mocha & chai<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="vscode-icons:file-type-jest" height="40" width="45">
+                      ></iconify-icon>
+                    <h3 class="services__title">Jest<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="vscode-icons:file-type-html" height="40"></iconify-icon>
+                    <h3 class="services__title">HTML & CSS<br /></h3>
+                  </div>
+                </div>
+                <!-- tools -->
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon style="color: #e84d31" icon="fa6-brands:git-alt" height="40"
+                      width="35"></iconify-icon>
+                    <h3 class="services__title">Git<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon style="color: #1f1e1e" icon="ant-design:github-filled" height="40"
+                      width="35"></iconify-icon>
+                    <h3 class="services__title">GitHub<br /></h3>
+                  </div>
+                </div>
+                <div class="skill__box">
+                  <div>
+                    <iconify-icon icon="vscode-icons:file-type-vscode" height="40" width="35"></iconify-icon>
+                    <h3 class="services__title">VsCode<br /></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== Projects ====================-->
+    <section class="services section" id="projects" style="margin-top: 50px">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">My recent works</span>
+
+      <div class="services__container container grid">
+
+        <!--==================== Project 1 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/supply-chain-finance.png" alt="Supply Chain Finance"
+                title="Supply Chain Finance" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Supply Chain Finance</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Supply chain finance, also known as reverse factoring,
+                is a financial arrangement that involves the collaboration of a buyer, a seller,
+                and a financier (usually a financial institution). It aims to optimize the cash
+                flow and working capital management within the supply chain by providing early
+                payment to the seller while allowing the buyer to extend their payment terms.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                NodeJS &nbsp;|&nbsp; ReactJs &nbsp;|&nbsp; postgreSQL &nbsp;|&nbsp; AWS
+              </p>
+            </div>
+            <div class="action-area">
+              <!-- <a class="project-action" href="" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                GitHub
+              </a> -->
+              <a class="project-action" href="http://159.65.144.35" title="Live Preview" target="_blank" rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 2 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/kiomoi.png" alt="Kiomoi Tour & Travels" title="Kiomoi Tour & Travels" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Kiomoi Tour & Travels</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Book holidays, vacation tour packages and weekend gateways with Kiomoi.com, Get travel deals on holiday
+                tour packages and save more.
+                If you are looking for Hotels bookings, Holidays and Vacations, Staycations, Travel experiences,
+                activities or Adventure holidays, the team at Kiomoi is vastly experienced in all these aspects, with
+                the added advantage of actually having been there and done that our selves.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                NextJS &nbsp;|&nbsp; GraphQL &nbsp;|&nbsp; JavaScript
+              </p>
+            </div>
+            <div class="action-area">
+              <!-- <a class="project-action" href="" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                GitHub
+              </a> -->
+              <a class="project-action" href="https://www.kiomoi.com" title="Live Preview" target="_blank"
+                rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 3 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/youtube.png" alt="Youtube Clone" title="Youtube Clone" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Youtube Clone</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Introducing our YouTube clone, comprehensive video sharing platform.
+                With user-friendly channel creation and seamless video uploads,
+                it empowers content creators to reach a global audience.
+                Engage with the community through likes, dislikes, shares, and comments,
+                fostering a vibrant ecosystem of creativity and interaction.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                Python &nbsp;|&nbsp; Django &nbsp;|&nbsp; ReactJs &nbsp;|&nbsp; OAuth
+              </p>
+            </div>
+            <div class="action-area">
+              <a class="project-action" href="https://github.com/sumit-singh1196/Accounting-Website" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                Github
+              </a>
+              <a class="project-action" href="https://you-tube-x.web.app" title="Live Preview" target="_blank"
+                rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 4 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/accounts.png" alt="Accounting System" title="Accounting System" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Accounting System</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Introducing our single entry accounting system: a comprehensive solution
+                for managing your business finances. Track sales and purchases with dedicated
+                books and ledgers, maintain accurate cash records, and effortlessly manage
+                vendors and customers. Streamline your financial processes with ease and
+                gain better control over your business transactions.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                NodeJs &nbsp;|&nbsp; NextJS &nbsp;|&nbsp; Material UI
+              </p>
+            </div>
+            <div class="action-area">
+              <a class="project-action" href="https://github.com/sumit-singh1196/Accounting-Website" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                GitHub
+              </a>
+              <a class="project-action" href="https://single-entry.vercel.app" title="Live Preview" target="_blank"
+                rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 5 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/food-delivery.png" alt="Food Delivery App" title="Food Delivery App" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Food Delivery App</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Introducing our food delivery app, the ultimate solution for satisfying your cravings.
+                Order your favorite cuisine from a wide selection of restaurants, track your delivery
+                in real-time, and enjoy the convenience of doorstep service. With a seamless user interface,
+                delicious food is just a few taps away.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                Django &nbsp;|&nbsp; React Native &nbsp;|&nbsp; Python
+              </p>
+            </div>
+            <div class="action-area">
+              <a class="project-action" href="https://github.com/sumit-singh1196/Food-Delivery-App" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                GitHub
+              </a>
+              <!-- <a class="project-action" href="" title="Live Preview"
+                target="_blank" rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 6 ====================-->
+        <div class="services__content">
+          <div class="portfolio-projects">
+            <div class="project-img">
+              <img src="./packages/images/video-call.png" alt="Video Calling App" title="Video Calling App" />
+            </div>
+            <div class="project-title">
+              <h3 class="title" title="Title">Video Calling App</h3>
+            </div>
+            <div class="project-desc">
+              <p title="Details">
+                Introducing our video calling app clone. Experience high-quality
+                video calls with friends, family, or colleagues, no matter the distance.
+                With user-friendly features and reliable performance, our app fosters
+                seamless and immersive face-to-face interactions in real-time.
+              </p>
+            </div>
+            <div class="project-tech">
+              <p title="Tech Stack">
+                React Native &nbsp;|&nbsp; Python &nbsp;|&nbsp; Django &nbsp;|&nbsp; Voximplant
+              </p>
+            </div>
+            <div class="action-area">
+              <a class="project-action" href="https://github.com/sumit-singh1196/Video-Call-App" title="Source Code"
+                target="_blank" rel="noopener">
+                <i class="uil uil-github button__icon"></i>
+                GitHub
+              </a>
+              <!-- <a class="project-action" href="" title="Live Preview"
+                target="_blank" rel="noopener">
+                <i class="uil uil-external-link-alt button__icon"></i>
+                Live
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== Statistic ====================-->
+    <section class="skills section" id="statistic">
+      <h2 class="section__title">Statistics</h2>
+      <span class="section__subtitle">My efforts</span>
+
+      <div class="statistic__row">
+        <div class="content">
+          <div class="statistic__circle">
+            <div class="container round">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">2400+</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Hours</h3>
+            <p style="margin-top: -30px">of coding</p>
+          </div>
+          <div class="statistic__circle">
+            <div class="container round">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">120+</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Leetcode</h3>
+            <p style="margin-top: -30px">problems</p>
+          </div>
+          <div class="statistic__circle">
+            <div class="container round">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">20+</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Projects</h3>
+            <p style="margin-top: -30px">done</p>
+          </div>
+          <div class="statistic__circle">
+            <div class="container round">
+              <div class="circular">
+                <div class="inner"></div>
+                <div class="number">100+</div>
+                <div class="circle">
+                  <div class="bar left">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="bar right">
+                    <div class="progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Hours</h3>
+            <p style="margin-top: -30px">of soft skills</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification__section qualification section" id="qualification">
+      <h2 class="section__title">Experience & Qualification</h2>
+      <span class="section__subtitle">My journey</span>
+
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#work">
+            <i class="uil uil-briefcase-alt qualification__icon"></i>
+            Work <!-- (DEFAULT ACTIVE) -->
+          </div>
+          <div class="qualification__button button--flex " data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--==================== QUALIFICATIONS ====================-->
+          <div class="qualification__content " data-content id="education">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">
+                  Full Stack Web Development
+                </h3>
+                <span class="qualification__subtitle"></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Nov 2020 - Present
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__title">BCA</h3>
+                <span class="qualification__subtitle">Indira Gandhi National Open University</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  June 2021 - June 2024
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== WORK AND EXPERIENCES (DEFAULT ACTIVE) ====================-->
+          <div class="qualification__content qualification__active" data-content id="work">
+            <!--==================== WORK AND EXPERIENCE 1 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Python Full Stack Developer</h3>
+                <span class="qualification__subtitle">Nixis technologies</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Aug 2021 - Oct 2022
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== WORK AND EXPERIENCE2 2 ====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">MERN Full Stack Developer</h3>
+                <span class="qualification__subtitle">Dahat Consultancy Services</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Oct 2022 - Present
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-linkedin-alt contact__icon"></i>
+
+            <div>
+              <a class="hover-underline" href="https://www.linkedin.com/in/sumit-singh-194a05224/" target="_blank"
+                style="color: #6a797c" title="click to open linkedin">
+                <h3 class="contact__title">Linkedin</h3>
+                <span class="contatc__subtitle">@SumitSingh</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-github-alt contact__icon"></i>
+
+            <div>
+              <a class="hover-underline" href="https://github.com/sumit-singh1196" target="_blank"
+                style="color: #6a797c" title="click to open github">
+                <h3 class="contact__title">GitHub</h3>
+                <span class="contatc__subtitle">@SumitSingh</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-phone-alt contact__icon"></i>
+
+            <div>
+              <a class="hover-underline" href="tel:+91 9355471196" style="color: #6a797c" title="click to make a call">
+                <h3 class="contact__title">Call me</h3>
+                <span class="contatc__subtitle">+91 9355471196</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <a class="hover-underline" href="mailto:summysumit100@gmail.com" style="color: #6a797c"
+                title="click to send email">
+                <h3 class="contact__title">E-mail</h3>
+
+                <span class="contatc__subtitle">summysumit100@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form grid" id="contact-form">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" class="contact__input" id="name" required />
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="contact__label">E-mail</label>
+              <input type="email" class="contact__input" id="email" required />
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea required id="message" cols="0" rows="7" class="contact__input"
+              title="Please fill out the this field."></textarea>
+          </div>
+
+          <p style="font-size: 12px; margin-top: -15px" title="Put your mail only">
+            <span style="color: #57c9e0">* </span> You will get a confirmation
+            mail after sending the message.
+          </p>
+          <div>
+            <button id="email-submit" class="button button--flex" style="
+                  outline: none;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 16px;
+                " title="Send message">
+              Send message
+              <i class="uil uil-message button__icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== MAIN JS ====================-->
+  <script src="./packages/js/main.js"></script>
+</body>
+
+</html>
