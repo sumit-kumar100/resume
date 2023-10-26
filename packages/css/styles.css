@@ -6,7 +6,8 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --hue-color: 190; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 190;
+  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -87,6 +88,10 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   align-items: center;
+}
+
+.nav__btns a:hover {
+  cursor: pointer;
 }
 
 .change-theme {
@@ -268,6 +273,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -386,7 +392,8 @@ img {
   color: var(--text-color);
   margin-bottom: var(--mb-0-75);
 }
-.home__subtitle span{
+
+.home__subtitle span {
   font-size: 40px;
 }
 
@@ -421,6 +428,7 @@ img {
 .home__scroll-arrow {
   font-size: 1.25rem;
 }
+
 /*==================== BUTTONS ====================*/
 
 .button {
@@ -666,6 +674,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, auto));
 }
+
 .skill__box div {
   text-align: center;
 }
@@ -747,6 +756,7 @@ img {
   gap: 50px 30px;
   margin-top: 2rem;
 }
+
 .portfolio-projects {
   overflow: hidden;
   transition: 0.3s;
@@ -763,22 +773,27 @@ img {
   height: 220px;
   display: block;
 }
+
 .project-title {
   display: flex;
   justify-content: space-between;
 }
+
 .project-title .title {
   font-size: 18px;
   font-weight: 600;
   margin: 20px 10px 0px 20px;
 }
+
 .project-title .action {
   margin: 20px 20px 0px 10px;
   font-size: 22px;
 }
+
 .project-title a {
   color: #52627c;
 }
+
 .project-title a:hover {
   color: #43b5cb;
 }
@@ -791,6 +806,7 @@ img {
   gap: 10px;
   margin-bottom: 30px;
 }
+
 .github-images img {
   width: 25%;
 }
@@ -810,6 +826,7 @@ img {
   font-size: 15px;
   margin: 20px 20px 20px 20px;
 }
+
 .project-tech {
   display: flex;
   flex-wrap: wrap;
@@ -818,12 +835,14 @@ img {
   color: #697979;
   margin: 10px 20px 20px 20px;
 }
+
 .action-area {
   display: flex;
   justify-content: space-between;
   gap: 0px 10px;
   margin: 20px 20px 30px 20px;
 }
+
 .project-action {
   background-color: rgb(237, 237, 237);
   border: 1px solid rgb(196, 196, 196);
@@ -833,20 +852,24 @@ img {
   font-weight: 500;
   padding: 0px 5px 0px 0px;
 }
+
 .project-action:hover {
   cursor: pointer;
   background-color: rgb(227, 227, 227);
 }
+
 .contact-form {
   display: grid;
   place-items: center;
   margin-top: 2rem;
 }
+
 .contact-form form {
   display: flex;
   flex-direction: column;
   width: 650px;
 }
+
 form input,
 textarea {
   padding: 15px;
@@ -858,14 +881,17 @@ textarea {
   margin-bottom: 1rem;
   color: var(--text-color);
 }
+
 form input::placeholder,
 textarea::placeholder {
   color: var(--text-color);
 }
+
 form textarea {
   resize: none;
   height: 100px;
 }
+
 .contact-button {
   width: 160px;
   cursor: pointer;
@@ -876,6 +902,7 @@ form textarea {
   letter-spacing: 1px;
   margin-left: 35%;
 }
+
 .contact-button:hover {
   background: var(--hover);
 }
@@ -926,6 +953,11 @@ form textarea {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.unordered-list {
+  list-style: circle;
+  margin-left: 15px;
 }
 
 /*==================== FOOTER ====================*/
@@ -1077,6 +1109,7 @@ form textarea {
   .skills__title {
     font-size: var(--normal-font-size);
   }
+
   .qualification__data {
     gap: 0.5rem;
   }
@@ -1184,6 +1217,7 @@ form textarea {
     gap: 10px;
     margin-bottom: 20px;
   }
+
   .github-images img {
     width: 40%;
   }
@@ -1241,6 +1275,7 @@ form textarea {
     width: 35%;
   }
 }
+
 /* for medium devices */
 @media screen and (min-width: 768px) {
   .container {
@@ -1251,12 +1286,15 @@ form textarea {
   .body {
     margin: 0;
   }
+
   .section {
-    padding: 4.5rem 0 0rem; 
+    padding: 4.5rem 0 0rem;
   }
+
   .section__subtitle {
     margin-bottom: 4rem;
   }
+
   .header {
     top: 0;
     bottom: initial;
@@ -1272,6 +1310,7 @@ form textarea {
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 1rem;
   }
+
   .nav__icon,
   .nav__close,
   .nav__toggle {
@@ -1286,6 +1325,7 @@ form textarea {
   .nav__menu {
     margin-left: auto;
   }
+
   .change-theme {
     margin: 0;
   }
@@ -1314,30 +1354,39 @@ form textarea {
   .home__blob {
     width: 270px;
   }
+
   .home__scroll {
     display: block;
   }
+
   .home__scroll-button {
     margin-left: 3rem;
   }
+
   .about__container {
     column-gap: 5rem;
   }
+
   .about__img {
     width: 350px;
   }
+
   .about__description {
     text-align: initial;
   }
+
   .about__info {
     justify-content: space-between;
   }
+
   .about__buttons {
     justify-content: initial;
   }
+
   .qualification__tabs {
     justify-content: center;
   }
+
   .qualification__button {
     margin: 0 var(--mb-1);
   }
@@ -1365,9 +1414,11 @@ form textarea {
     grid-template-columns: repeat(2, 300px);
     justify-content: center;
   }
+
   .services__icon {
     font-size: 2rem;
   }
+
   .services__content {
     padding: 0;
   }
@@ -1375,18 +1426,23 @@ form textarea {
   .services__modal-content {
     width: 450px;
   }
+
   .portfolio__img {
     width: 320px;
   }
+
   .portfolio__content {
     align-items: center;
   }
+
   .project {
     text-align: initial;
   }
+
   .project__bg {
     background: none;
   }
+
   .project__container {
     background-color: var(--first-color-second);
     border-radius: 1rem;
@@ -1398,6 +1454,7 @@ form textarea {
   .github-images img {
     width: 35%;
   }
+
   .project__data {
     padding-top: 0.8rem;
   }
@@ -1405,6 +1462,7 @@ form textarea {
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .footer__bg {
     padding: 1rem 0 1rem;
   }
@@ -1413,9 +1471,11 @@ form textarea {
     flex-direction: row;
     column-gap: 2rem;
   }
+
   .footer__socials {
     justify-self: flex-end;
   }
+
   .footer__copy {
     margin-top: 0rem;
   }
@@ -1432,6 +1492,7 @@ form textarea {
   .footer__container {
     padding: 0;
   }
+
   .home__blob {
     width: 320px;
   }
@@ -1443,14 +1504,15 @@ form textarea {
   .home__subtitle {
     font-size: 40px;
   }
-  
-  .home__subtitle span{
+
+  .home__subtitle span {
     font-size: 25px;
   }
 
   .home__social {
     transform: translateX(-6rem);
   }
+
   .services__container {
     grid-template-columns: repeat(2, 400px);
   }
@@ -1466,13 +1528,16 @@ form textarea {
   .swiper-portfolio-icon {
     font-size: 3.5rem;
   }
+
   .swiper-button-prev {
     left: -3.5rem;
   }
+
   .swiper-button-next {
     right: -3.5rem;
   }
-  .swiper-container-horizontal > .swiper-pagination-bullets {
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: -4.5rem;
   }
 
